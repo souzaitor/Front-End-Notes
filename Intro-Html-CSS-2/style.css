@@ -7,7 +7,12 @@ body {
 }
 
 .titulo-principal{
-	padding-left: 20px;
+	position: absolute;
+    top: 20px;
+    right: -10px;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 .principal {
@@ -19,7 +24,7 @@ body {
 	text-align: center;
 }
 
-p {
+.corpo-texto {
 	text-align: center;
 }
 
@@ -43,7 +48,7 @@ em strong {
 }
 
 
-ul {
+.lista-ben ul {
 	display: inline-block;
 	vertical-align: top;
 	width: 20%;
